@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Segitiga</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="Container">
+    <header class="Container__header">
+      <div>
+        <h2>Welcome to Katik</h2>
+        <p>Hai sobat selamat datang di katik</p>
+        <p>
+          Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas
+          dan keliling bangun datar
+        </p>
+      </div>
+    </header>
+    <main class="Container__main">
+      <div>
+        <div class="Container__head-main">
+          <h1>Luas Segitiga</h1>
+        </div>
+        <div>
+          <div class="Container__img">
+            <img src="./assets/images.png" />
+          </div>
+          <section class="Container__hero">
+            <p>Rumus Luas Segitiga yaitu:</p>
+            <h3>L = 1/2 x a x t</h3>
+            <p>
+              Dimana: <br />
+              L = Luas <br />
+              a = Panjang Alas <br />
+              T = Tinggi
+            </p>
+          </section>
+          <hr />
+          <div class="Container__input">
+            <h1>Hitung Luas Segitiga</h1>
+            <input id="inputAlas" type="number" placeholder="Alas" />
+            <input id="inputTinggi" type="number" placeholder="Tinggi" />
+            <p id="result__luas"></p>
+            <button class="button__hitung-luas">Hitung</button>
+            <button class="button__reset-luas">Reset</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <main class="Container__main">
+      <div>
+        <div class="Container__head-main">
+          <h1>Keliling Segitiga</h1>
+        </div>
+        <div>
+          <div class="Container__img">
+            <img src="./assets/images.png" />
+          </div>
+          <section class="Container__hero">
+            <p>Rumus Keliling Segitiga yaitu:</p>
+            <h3>K = S1 + S2 + S3</h3>
+            <p>
+              Dimana: <br />
+              K = Keliling <br />
+              S1 = Sisi A <br />
+              S2 = Sisi B <br />
+              S3 = Sisi C
+            </p>
+          </section>
+          <hr />
+          <div class="Container__input">
+            <h1>Hitung Keliling Segitiga</h1>
+            <input id="S1" type="number" placeholder="S1" />
+            <input id="S2" type="number" placeholder="S2" />
+            <input id="S3" type="number" placeholder="S3" />
+            <p id="result__keliling"></p>
+            <button class="button__hitung-keliling">Hitung</button>
+            <button class="button__reset-keliling">Reset</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./js/script.js"></script>
+  </body>
+  <footer>
+    <h2>Copy Right By Muhammad Fatih</h2>
+  </footer>
+</html>

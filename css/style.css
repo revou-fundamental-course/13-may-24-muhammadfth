@@ -1,0 +1,139 @@
+.Container {
+  max-width: 100%;
+  font-family: sans-serif;
+}
+
+.Container__header {
+  background-color: #035e49;
+  color: white;
+  border-radius: 25px 25px 0px 0px;
+  height: 8rem;
+  padding-top: 0.3rem;
+}
+
+.Container__header h2 {
+  text-align: center;
+}
+
+.Container__header p {
+  text-align: center;
+}
+
+.Container__main {
+  margin-top: 2rem;
+  background-color: #e8eded;
+  border-radius: 20px;
+}
+
+.Container__head-main {
+  background-color: #2aba8f;
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px 25px 0px 0px;
+  color: white;
+}
+
+.Container__head-main h1 {
+  text-align: center;
+}
+
+.Container__img {
+  display: flex;
+  justify-content: center;
+}
+
+.Container__hero h3 {
+  text-align: center;
+}
+
+.Container__input h1 {
+  text-align: center;
+}
+
+.Container__input {
+  width: 100%;
+}
+
+.Container__input input {
+  width: 98%;
+  justify-content: center;
+  margin: 5px;
+  padding: 5px;
+  height: 2rem;
+  border-radius: 10px;
+}
+
+.button__hitung-luas {
+  background-color: #2aba8f;
+  display: flex;
+  justify-content: center;
+  padding-top: 17px;
+  margin: 0 auto;
+  cursor: pointer;
+  margin-bottom: 20px;
+  width: 8em;
+  height: 3em;
+  border-radius: 5px;
+  color: white;
+  border-style: none;
+  font-size: large;
+}
+
+.button__reset-luas {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 5px;
+  background-color: #00d67d;
+  color: white;
+  border-style: none;
+  width: 6em;
+  height: 2em;
+  padding-top: 5px;
+  cursor: pointer;
+}
+
+.button__hitung-keliling {
+  background-color: #2aba8f;
+  display: flex;
+  justify-content: center;
+  padding-top: 17px;
+  margin: 0 auto;
+  cursor: pointer;
+  margin-bottom: 20px;
+  width: 8em;
+  height: 3em;
+  border-radius: 5px;
+  color: white;
+  border-style: none;
+  font-size: large;
+}
+
+.button__reset-keliling {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 5px;
+  background-color: #00d67d;
+  color: white;
+  border-style: none;
+  width: 6em;
+  height: 2em;
+  padding-top: 5px;
+  cursor: pointer;
+}
+
+hr {
+  width: 98%;
+}
+
+Footer {
+  background-color: #035e49;
+  height: 3rem;
+  text-align: center;
+  border-radius: 0px 0px 20px 20px;
+}
+Footer h2{
+  padding-top: 10px;
+  color: white;
+}
